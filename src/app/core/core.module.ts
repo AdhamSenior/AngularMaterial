@@ -7,7 +7,6 @@ import {HttpClientModule} from '@angular/common/http';
 
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {
   MatAutocompleteModule,
@@ -45,6 +44,7 @@ import {
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule,
+
 } from '@angular/material';
 
 
@@ -87,6 +87,7 @@ import {
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
+    BrowserAnimationsModule
   ],
   declarations: [],
   exports: [
@@ -126,6 +127,6 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule]
+    MatTreeModule,BrowserAnimationsModule]
 })
 export class CoreModule { }
