@@ -1,13 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {CdkTableModule} from '@angular/cdk/table';
-import {CdkTreeModule} from '@angular/cdk/tree';
-import {HttpClientModule} from '@angular/common/http';
-
-import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {
   MatAutocompleteModule,
   MatBadgeModule,
@@ -91,17 +85,12 @@ import {
   ],
   declarations: [],
   exports: [
-    CdkTableModule,
-    CdkTreeModule,
     MatAutocompleteModule,
-    MatBadgeModule,
-    MatBottomSheetModule,
     MatButtonModule,
     MatButtonToggleModule,
     MatCardModule,
     MatCheckboxModule,
     MatChipsModule,
-    MatStepperModule,
     MatDatepickerModule,
     MatDialogModule,
     MatDividerModule,
@@ -123,10 +112,10 @@ import {
     MatSlideToggleModule,
     MatSnackBarModule,
     MatSortModule,
+    MatStepperModule,
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule,
-    MatTreeModule,BrowserAnimationsModule]
+    MatTooltipModule]
 })
 export class CoreModule { }
